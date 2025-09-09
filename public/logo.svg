@@ -1,0 +1,55 @@
+<svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- خلفية دائرية بتدرج فيروزي -->
+  <circle cx="30" cy="30" r="25" fill="url(#gradient1)" stroke="#134e4a" stroke-width="2"/>
+  
+  <!-- رمز الأطلس - جبل متدرج -->
+  <path d="M15 35 L20 20 L25 25 L30 15 L35 20 L40 25 L45 35" 
+        fill="none" 
+        stroke="#ffffff" 
+        stroke-width="3" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- خط القاعدة -->
+  <line x1="15" y1="40" x2="45" y2="40" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- النجمة كرمز للتميز -->
+  <polygon points="30,8 32,14 38,14 33,18 35,24 30,20 25,24 27,18 22,14 28,14" 
+           fill="#ffffff" 
+           opacity="0.9"/>
+  
+  <!-- النص العربي -->
+  <text x="65" y="20" 
+        font-family="Cairo, Arial, sans-serif" 
+        font-size="16" 
+        font-weight="bold" 
+        fill="#134e4a" 
+        text-anchor="start">أطلس</text>
+  
+  <text x="65" y="40" 
+        font-family="Cairo, Arial, sans-serif" 
+        font-size="12" 
+        font-weight="600" 
+        fill="#0d9488" 
+        text-anchor="start">يو بي سي</text>
+  
+  <!-- خط تحت النص -->
+  <line x1="65" y1="45" x2="110" y2="45" 
+        stroke="url(#gradient2)" 
+        stroke-width="2" 
+        stroke-linecap="round"/>
+  
+  <!-- التدرجات -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#134e4a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0d9488;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d9488;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
